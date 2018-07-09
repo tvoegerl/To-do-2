@@ -4,15 +4,17 @@
     </head>
     <body>
         <form action="/action_page.php" method="get">
-          <li> <input type="checkbox" name="to-do" value="1"> Read English Intro and Chapter 1 5 pomodoros <br> </li>
-          <li> <input type="checkbox" name="to-do" value="2"> Do English Assignment 3 pomodoros <br> </li>
-          <li> <input type="checkbox" name="to-do" value="3"> Finish Biology Chapter 50 Guided Notes 2 pomodoros <br> </li>
-          <li> <input type="checkbox" name="to-do" value="4"> Finish Biology Chapter 51 and Notes 4 pomodoros <br> </li>
-          <li> <input type="checkbox" name="to-do" value="5"> Read Biology Chapter 52 and Notes 8 pomodoros <br> </li>
-          <li> <input type="checkbox" name="to-do" value="6"> Have fun!! 0 pomodoros <br> </li>
-          <input type="submit" value="Submit">
+          <li> <input type="checkbox" name="to-do" value="1"> Read English Intro and Chapter 1 -- 5 pomodoros <br> </li>
+          <li> <input type="checkbox" name="to-do" value="2"> Do English Assignment -- 3 pomodoros <br> </li>
+          <li> <input type="checkbox" name="to-do" value="3"> Finish Biology Chapter 50 Guided Notes -- 2 pomodoros <br> </li>
+          <li> <input type="checkbox" name="to-do" value="4"> Finish Biology Chapter 51 and Notes -- 4 pomodoros <br> </li>
+          <li> <input type="checkbox" name="to-do" value="5"> Read Biology Chapter 52 and Notes -- 8 pomodoros <br> </li>
+          <li> <input type="checkbox" name="to-do" value="6"> Have fun!! -- 0 pomodoros <br> </li>
         </form>
-        Add To-do
+        <form action="/action_page.php">
+          Add To-do: <input type="text" name="AddedToDo" placeholder="Add a new to-do..."><br>
+          Time: <input type="text" name="Time" placeholder="Add a time..."><br>
+          <input type="submit" value="Add">
+        </form>
     </body>
 </html>
-
