@@ -1,3 +1,31 @@
 html{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h1{color: rgba(50,100,220,0.8);}
+
+#button {
+    background-color: #0a59ad;
+    border: none;
+    color: #c0d1e2;
+    padding: 3px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:50px;
+}
+
+li{padding:10px;
+color: #D671C8;}
+li:hover{background-color:#E1F5FE;
+border-radius:3px;}
+
+body {
+    background-image: url("https://girlwiththecomicbooktattoo.files.wordpress.com/2013/02/flags.jpg");
+    background-size: 900px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: #f9f4f9;
 }

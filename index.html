@@ -1,10 +1,10 @@
 <html>
     <head>
         <title> Tatiana's To-do's </title>
-        <link rel="style" href="index.css">
+        <link rel="show" href="index.css">
     </head>
     <body>
-        <strong> To-Do </strong>
+        <h1>To-Do</h1>
         <form action="/action_page.php" method="get">
           <ol>
           <li> <input type="checkbox" name="to-do" value="1"> <a href = "show.html"> Read English Intro and Chapter 1 -- 5 pomodoros </a> <br> </li>
@@ -15,10 +15,12 @@
           <li> <input type="checkbox" name="to-do" value="6"> Have fun!! -- 0 pomodoros <br> </li>
           </ol>
         </form>
+        
         <form action="/action_page.php">
           Add To-do: <input type="text" name="AddedToDo" placeholder="Add a new to-do..."><br>
           Time: <input type="text" name="Time" placeholder="Add a time..."><br>
-          <input type="submit" value="Add">
+          
         </form>
+        <input id="button" type="submit" value="Add"> 
     </body>
 </html>
