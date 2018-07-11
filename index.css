@@ -1,29 +1,39 @@
 html{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-h1{color: rgba(50,100,220,0.8);}
-
-#button {
-    background-color: #0a59ad;
-    border: none;
-    color: #c0d1e2;
+h1{
+    font-family:fantasy;
+    font-size: 30px;
+    color:#c871d6;
+    margin-top:10px;
+    margin-right:20px;
+}
+#add-new-to-do-button {
+    background-color:#0a59ad;
+    border:none;
+    color: #929ba3;
     padding: 3px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
-    border-radius:50px;
+    cursor:pointer;
+    border-radius:50px;}
+#add-new-to-do-button:hover{
+    background-color: #8bb8e8;
 }
 li{padding:10px;
-color: #D671C8;}
-li:hover{background-color:#E1F5FE;
+color:#D671C8;}
+li:hover{background-color:rgba(225, 245, 254, 0.7);
 border-radius:3px;}
 body {
     background-image: url("https://girlwiththecomicbooktattoo.files.wordpress.com/2013/02/flags.jpg");
     background-size: 900px;
     background-repeat:no-repeat;
-    background-position: center;
-    background-color: #f9f4f9;
+    background-position:center;
+    background-color: #f9f8f4;
+}
+span{
+    color:#006eba;
 }
